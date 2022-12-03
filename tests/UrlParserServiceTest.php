@@ -43,7 +43,7 @@ final class UrlParserServiceTest extends TestCase
      *
      * @return void
      */
-    public function testIsComparisonSatisfied(
+    public function testCorrectUrlParsing(
         string $url,
         string $expectedVideoId,
         string $expectedVideoHostingName,
